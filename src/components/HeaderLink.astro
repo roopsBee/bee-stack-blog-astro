@@ -11,12 +11,8 @@ const isActive = href === pathname || href === pathname.replace(/\/$/, "");
 
 <a
   href={href}
-  class="hover:underline hover:text-yellow-400"
-  class:list={[
-    ,
-    className,
-    { underline: isActive, "text-yellow-400": isActive },
-  ]}
+  class="hover:underline hover:text-yellow-400 font-bold"
+  class:list={[, className, { "underline text-yellow-400": isActive }]}
   {...props}
 >
   <slot />
