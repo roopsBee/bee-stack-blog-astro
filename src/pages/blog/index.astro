@@ -28,7 +28,8 @@ const posts = (await getCollection("blog")).sort(
                 <FormattedDate
                   class="font-serif font-bold"
                   date={post.data.pubDate}
-                />
+                />{" "}
+                -
                 <a class="hover:underline" href={`/blog/${post.slug}/`}>
                   {post.data.title}
                 </a>
