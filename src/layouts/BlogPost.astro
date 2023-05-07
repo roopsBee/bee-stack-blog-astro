@@ -20,9 +20,9 @@ const { title, description, pubDate, updatedDate, heroImage, hideDates } =
   <Body>
     <Header />
     <main>
-      <article>
+      <article class="prose prose-invert">
         {heroImage && <img class="w-full" src={heroImage} alt="" />}
-        <h1 class="my-4 font-bold">{title}</h1>
+        <h1 class="my-4 font-bold text-gray-100">{title}</h1>
         {!hideDates && <FormattedDate date={pubDate} />}
         {
           updatedDate && !hideDates && (
