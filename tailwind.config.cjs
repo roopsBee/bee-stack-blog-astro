@@ -3,9 +3,9 @@ module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
-      padding: {
-        fluidSm: "clamp(0rem, 3vw, 1.5rem)",
-        fluid: "clamp(1rem, 7vw, 3rem)",
+      margin: {
+        fluidSm: "clamp(0rem, 4vw, 2rem)",
+        fluid: "clamp(1rem, 8vw, 4rem)",
       },
     },
   },
