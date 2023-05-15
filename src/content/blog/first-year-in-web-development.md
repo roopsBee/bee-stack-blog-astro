@@ -25,15 +25,15 @@ Ideally, each sprint will become better than the last. I think to get the best o
 
 Now I have only experienced Scrum. So this means sprint planning, ticket refinement, and retrospective meetings. Also including ticket estimations with story points.
 
-To me, Scrum tends to create <span class="font-bold text-violet-400">observability</span> of what the team can achieve, which I believe has a cost in time. Thereby reducing what the team can actually achieve. In other words, the ticket estimations in sprint refinement, and bringing a set amount of tickets into the sprint, actually leads to a decrease in what can be achieved.
+To me, Scrum tends to create <span class="font-bold text-orange-400">observability</span> of what the team can achieve, which I believe has a cost in time. Thereby reducing what the team can actually achieve. In other words, the ticket estimations in sprint refinement, and bringing a set amount of tickets into the sprint, actually leads to a decrease in what can be achieved.
 
-<span class="font-bold text-yellow-500 italic">
+<span class="font-bold text-yellow-400 italic">
 Story pointing costs storypoints, observability costs storypoints.
 </span>
 
 I also think that Scrum allows <span class="font-bold text-orange-500">bottlenecks</span> in the path to a ticket being done, to almost be swept under the rug. If there is a bottleneck in deployment, at the end of the sprint with no tickets being done, this bottleneck will resolve itself. Potentially a problem never seen.
 
-Probably a good action to come out of a Scrum retrospective would be to try Kanban. I have not experienced it, but, to borrow a term from chemistry, it seems to have the potential to determine the 'rate-determining step.' We can then reallocate resources or work on processes to improve this bottleneck; we are forced to.
+Probably a good action to come out of a Scrum retrospective would be to <span class="font-bold text-green-500">try Kanban.</span> I have not experienced it, but, to borrow a term from chemistry, it seems to have the potential to determine the 'rate-determining step.' We can then reallocate resources or work on processes to improve this bottleneck; we are forced to.
 
 Now, I think one important thing to keep in mind in Kanban is developer burnout. The slowdown after a sprint in Scrum allows a respite.
 
@@ -41,9 +41,9 @@ I guess there are many solutions to this.
 
 Even if Kanban is tried for a few sprints, maybe improvements to the Scrum process can be identified or highlighted.
 
-Organisation and planning.
+## Organisation and planning.
 
-I started development with just a notebook. A page for each ticket, general notes, and learnings in the back that I need to be aware of. To now having a Notion setup based on the excellent **[PARA method](https://fortelabs.com/blog/para/)**, gradually refined to my needs.
+I started development with just a notebook. A page for each ticket, general notes, and learnings in the back that I need to be aware of. To now having a <span class="font-bold text-blue-500">Notion</span> setup based on the excellent **[PARA method](https://fortelabs.com/blog/para/)**, gradually refined to my needs.
 
 This, I feel, has a big benefit to relieve cognitive overhead and generally being more productive. I am now using this not just for work-related things but also for my personal life.
 
