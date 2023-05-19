@@ -1,5 +1,5 @@
 ---
-title: 'Clean code, maintenance, optimising for change'
+title: 'Clean Code, Maintenance, Optimising For Change'
 description: 'What is clean code, and is less code better? What should we be optimising for when we write code?'
 pubDate: 'April 29 2023'
 heroImage: '/placeholder-hero.jpg'
