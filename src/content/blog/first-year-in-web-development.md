@@ -1,7 +1,7 @@
 ---
 title: 'My First Year In Web Development'
 description: 'A year in web development has passed me by. What have I learned.'
-pubDate: 'May 01 2023'
+pubDate: 'April 16 2023'
 heroImage: '/placeholder-hero.jpg'
 ---
 
