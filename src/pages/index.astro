@@ -1,18 +1,26 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Body from '../layouts/Body.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-  </head>
-  <body>
-    <Header title={SITE_TITLE} />
-    <main>BeeStack Blog</main>
-    <Footer />
-  </body>
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<Body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<p class="mt-10 text-lg">
+				Welcome to the <span class="font-bold text-yellow-400">Bee Stack</span> blog. Where I share my <span
+					class="font-bold text-yellow-400">thoughts</span
+				>
+				and <span class="font-bold text-yellow-400">learnings</span> as I journey through software development.
+			</p>
+		</main>
+		<Footer />
+	</Body>
 </html>
