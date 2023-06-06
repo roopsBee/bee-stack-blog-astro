@@ -1,21 +1,20 @@
 ---
 title: 'Escaping Tutorial Hell'
 description: 'What is tutorial hell and how do we escape it. Is there one in the first place?'
-pubDate: 'April 16 2023'
-heroImage: '/placeholder-hero.jpg'
+pubDate: 'Jun 6 2023'
 ---
 
 ## My Beginnings
 
-What got me interested in programming was electronics, and a desire to understand how to connect an Arduino to a website. I had seen a couple of youtube tutorials showing a connection between an Arduino to firebase, but what I really wanted is to represent and control the arduino through a website. Some sort of visual interface.
+What got me interested in programming was electronics, and a desire to understand how to connect an Arduino to a website. I had seen a couple of youtube tutorials showing a connection between an Arduino to firebase, but what I really wanted is to represent and <span class="text-yellow-400 font-bold">control the arduino through a website.</span> Some sort of visual interface.
 
-I started, as many others do, by following youtube tutorials. Soon after, I started finding many great websites to learn from such as the excellent free code camp, and also some excellent courses on udemy. I found my first course here, colt steel’s web developers bootcamp. And so began my journey.
+I started, as many others do, by following youtube tutorials. Then soon after, I started exploring the many great websites to learn from such as the excellent <span class="font-bold text-orange-400">free code camp</span>, and also some excellent courses on udemy. I found my first course here, Colt Steel’s web developers bootcamp. And so began my journey.
 
 As soon as I completed one course, I had already another one lined up. I worked on one course after the other in evenings and weekends. It was fun, and i could see real progress being made. Following along and building more and more complex projects, with more complex technology.
 
-This went on for about a year, and working my way through around 5 udemy courses. I felt pretty confident as a web developer.
+This went on for about a year, and working my way through around 5 udemy courses. <span class="font-bold text-blue-400">I felt pretty confident as a web developer.</span>
 
-The next step was for me to build something from scratch. Without following a tutorial. And that’s when it hit me. I sat there for a few minutes staring at the screen, with a view to build a full stack react web app. I didn’t know where to start. What even was the command to start a new react app? I was just blank. I was a little confused, I had done all those courses, then why couldn’t I build anything? Do I need more courses? Did I not learn a thing?
+The next step was for me to build something from scratch. Without following a tutorial. And that’s when it hit me. I sat there for a few minutes staring at the screen, with a view to build a full stack react web app. <span class="font-bold text-red-400">I didn’t know where to start.</span> What even was the command to start a new react app? I was just blank. I was a little confused, I had done all those courses, then why couldn’t I build anything? Do I need more courses? Did I not learn a thing?
 
 Of course no one tells you that not knowing is normal.
 
@@ -27,11 +26,11 @@ It is only in retrospect that I can see that this is where I felt that I really 
 
 ## Learning to Embrace Cognitive unease
 
-Naturally, having to work out what I had to do at every step took a lot more time and a lot more energy. What I thought would take 1 week to complete an exercise, actually took a month. I would always underestimate the time it took for me to complete things. And this is OK. Took me a while to realise this, but learning programming takes time. Of course it doesn’t help with all the marketing and nonsense touted around on the interwebs about learning to program in ‘4 WEEKS!’ or ‘how i learned python in 1 WEEK!’ .
+Naturally, having to work out what I had to do at every step took a lot more time and a lot more energy. What I thought would take 1 week to complete an exercise, actually took a month. I would always underestimate the time it took for me to complete things. And this is OK. Took me a while to realise this, but <span class="font-bold text-teal-400">learning programming takes time.</span> Of course it doesn’t help with all the marketing and nonsense touted around on the interwebs about learning to program in ‘4 WEEKS!’ or ‘how i learned python in 1 WEEK!’ .
 
 Rest assured, the vast majority of people took many months if not years to get to grips with just the fundamentals. Don’t be discouraged if your progress isn’t as fast as you would have hoped. It’s a marathon, not a sprint. Consistent and steady practice will get you there.
 
-Now it still is a marathon though it’s good start on with a nice few walks. Choose the path of cognitive unease once you’ve had a few strolls. Find a balance between difficulty and enjoyment. And go slower, it’s fine.
+Now it still is a marathon, though it’s good start on with a nice few walks. Choose the path of cognitive unease once you’ve had a few strolls. <span class="font-bold text-green-400">Find a balance between difficulty and enjoyment.</span> And go slower, it’s fine.
 
 ## Is there really a tutorial hell? Is it not all just part of the process?
 
@@ -39,7 +38,7 @@ I would say that this path through ‘tutorial hell’ is just a section on the 
 
 It’s fine, if your going through tutorials keep going, just don’t beat yourself up about where you should or shouldn’t be in your path to programming. It’s part of the journey.
 
-Then when you are ready to turn the stroll into a gentle jog, go for it. No rush. Go steady.
+Then when you are ready to turn the stroll into a gentle jog, go for it. <span class="font-bold text-yellow-400">No rush. Go steady.</span>
 
 ## What really matters
 
@@ -47,4 +46,4 @@ What really matters? Of course this is largely subjective. It depends on your go
 
 For me, I wanted to change career, but i didn’t want the learning to feel like a chore. Luckily i’m spoilt for choice when it comes to excellent learning material. There are a lot of good teachers out there putting out good content. So i think it’s a little harsh to be have something called tutorial hell, implying these tutorials are somehow drawing you down a path to hell.
 
-This road of learning never ends, so go slow, take it in, help people, and have some fun.
+<span class="font-bold text-purple-400">This road of learning never ends, so go slow, take it in, help people, and have some fun.</span>
