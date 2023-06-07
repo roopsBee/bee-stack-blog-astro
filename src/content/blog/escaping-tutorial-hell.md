@@ -1,7 +1,7 @@
 ---
 title: 'Escaping Tutorial Hell'
 description: 'What is tutorial hell and how do we escape it. Is there one in the first place?'
-pubDate: 'Jun 6 2023'
+pubDate: 'June 6 2023'
 ---
 
 ## My Beginnings
