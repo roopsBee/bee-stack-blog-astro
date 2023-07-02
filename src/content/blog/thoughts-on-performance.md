@@ -1,7 +1,7 @@
 ---
 title: 'Thoughts On Performance'
 description: 'A few wandering thoughts on performance.'
-pubDate: 'July 7 2023'
+pubDate: 'June 6 2023'
 ---
 
 When first starting in web development, very little was mentioned about performance in tutorials and courses. It was only maybe six months into full-time development that I started becoming aware of it, largely because of visually noticing things that seemed slower than they should. I do wonder if performance should be mentioned more frequently in the many tutorials around web development for beginners.

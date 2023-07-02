@@ -1,12 +1,12 @@
 ---
 title: 'Escaping Tutorial Hell'
 description: 'What is tutorial hell and how do we escape it. Is there one in the first place?'
-pubDate: 'June 6 2023'
+pubDate: 'May 22 2023'
 ---
 
 ## My Beginnings
 
-What got me interested in programming was electronics, and a desire to understand how to connect an Arduino to a website. I had seen a couple of youtube tutorials showing a connection between an Arduino to firebase, but what I really wanted is to represent and <span class="text-yellow-400 font-bold">control the arduino through a website.</span> Some sort of visual interface.
+What got me interested in programming was electronics, and a desire to understand how to connect an Arduino to a website. I had seen a couple of youtube tutorials showing a connection between an Arduino to firebase, but what I really wanted is to represent and <span class="font-bold text-yellow-400">control the arduino through a website.</span> Some sort of visual interface.
 
 I started, as many others do, by following youtube tutorials. Then soon after, I started exploring the many great websites to learn from such as the excellent <span class="font-bold text-orange-400">free code camp</span>, and also some excellent courses on udemy. I found my first course here, Colt Steel’s web developers bootcamp. And so began my journey.
 
