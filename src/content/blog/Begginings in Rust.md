@@ -1,6 +1,6 @@
 ---
-title: 'Beggings in Rust'
-description: 'My initail thoughts on learning Rust as my second language.'
+title: 'Begginings In Rust'
+description: 'My initial thoughts on learning Rust as my second language.'
 pubDate: 'July 2 2023'
 ---
 
@@ -20,7 +20,7 @@ I found the official Rustlings course a good place to start. It’s a GitHub rep
 
 Memory and safety had never entered my mind with TypeScript. With Rust, it has, and not in a bad way. I’m kind of forced to think about memory in order to understand why Rust wants me to do things in a certain way. Like why strings are represented in multiple ways: a string slice, a string literal, or a ‘String’.
 
-## Stop looking for shortcuts 
+## Stop Looking for Shortcuts
 
 I’m beginning to understand Rust more now that I realise that the code I write will not be as concise as it is in TypeScript, and that I should stop looking for these ‘shortcuts’. These shortcuts that I kept looking for were just ways of me trying to bypass the type-safety that the Rust compiler is trying to enforce. A mindset shift had to be made. I have to handle all cases. If I get an item from an array, I better handle if the index I provide is invalid.
 
