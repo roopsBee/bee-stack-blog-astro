@@ -23,7 +23,7 @@ const { title, description, pubDate, updatedDate, heroImage, hideDates } = Astro
 		<main>
 			<article class="prose prose-invert">
 				{heroImage && <img class="w-full" src={heroImage} alt="" />}
-				<h1 transition:animate={fade({ duration: '0.3s' })} class="my-4 font-bold text-gray-100">{title}</h1>
+				<h1 class="my-4 font-bold text-gray-100">{title}</h1>
 				{!hideDates && <FormattedDate date={pubDate} />}
 				{
 					updatedDate && !hideDates && (
