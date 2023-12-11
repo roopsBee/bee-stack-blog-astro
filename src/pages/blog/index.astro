@@ -6,6 +6,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Body from '../../layouts/Body.astro';
+import { fade } from 'astro:transitions';
 
 const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
@@ -19,7 +20,7 @@ const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueO
 		<Header />
 		<main>
 			<section>
-				<ul>
+				<ul transition:animate={fade({ duration: '0.3s' })}>
 					{
 						posts.map((post) => (
 							<li>
