@@ -23,7 +23,7 @@ const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueO
 				<ul>
 					{
 						posts.map((post, index) => (
-							<li transition:animate={fade({ duration: `${index / 10 + 0.4}s` })}>
+							<li transition:animate={fade({ duration: `${index / 20 + 0.4}s` })}>
 								<FormattedDate class="font-serif font-bold" date={post.data.pubDate} /> -
 								<a class="hover:underline" href={`/blog/${post.slug}/`}>
 									{post.data.title}
