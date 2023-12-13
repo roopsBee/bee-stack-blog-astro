@@ -4,6 +4,8 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Body from '../layouts/Body.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { Image } from 'astro:assets';
+import HeroImage from '../assets/images/hero-bee-stack-01.png';
 ---
 
 <!DOCTYPE html>
@@ -14,6 +16,12 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<Body>
 		<Header title={SITE_TITLE} />
 		<main>
+			<Image
+				src={HeroImage}
+				widths={[240, 540, 720, 1024, HeroImage.width]}
+				alt="Man in hoodie wearing headphones in a mystical forest. Working on a laptop with bees around him and a distant futuristic city visible through the trees"
+				quality="mid"
+			/>
 			<p class="mt-10 text-lg">
 				Welcome to the <span class="font-bold text-yellow-400">Bee Stack</span> blog. Where I share my <span
 					class="font-bold text-yellow-400">thoughts</span
