@@ -1,29 +1,32 @@
 {
-  "name": "bee-stack-blog-astro",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/mdx": "^0.19.7",
-    "@astrojs/rss": "^2.4.4",
-    "@astrojs/sitemap": "^1.4.0",
-    "@astrojs/tailwind": "^5.0.3",
-    "@astrojs/ts-plugin": "^1.3.1",
-    "@astrojs/vercel": "^6.0.0",
-    "astro": "^4.0.1",
-    "sharp": "^0.33.0",
-    "tailwindcss": "^3.3.6"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10",
-    "prettier": "^2.8.8",
-    "prettier-plugin-astro": "^0.8.1",
-    "prettier-plugin-tailwindcss": "^0.3.0"
-  }
+	"name": "bee-stack-blog-astro",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"test": "pnpm exec playwright test"
+	},
+	"dependencies": {
+		"@astrojs/mdx": "^0.19.7",
+		"@astrojs/rss": "^2.4.4",
+		"@astrojs/sitemap": "^1.4.0",
+		"@astrojs/tailwind": "^5.0.3",
+		"@astrojs/ts-plugin": "^1.3.1",
+		"@astrojs/vercel": "^6.0.0",
+		"astro": "^4.0.1",
+		"sharp": "^0.33.0",
+		"tailwindcss": "^3.3.6"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.40.1",
+		"@tailwindcss/typography": "^0.5.10",
+		"@types/node": "^20.10.5",
+		"prettier": "^2.8.8",
+		"prettier-plugin-astro": "^0.8.1",
+		"prettier-plugin-tailwindcss": "^0.3.0"
+	}
 }
