@@ -6,10 +6,6 @@ test.describe('Bee Stack Website Tests', () => {
 		await page.goto('http://localhost:4321/');
 	});
 
-	test.afterEach(async ({ page }) => {
-		// Common teardown tasks after each test, if any
-	});
-
 	test('Should display the correct heading on the home page', async ({ page }) => {
 		await expect(page.getByRole('heading')).toContainText('Bee Stack');
 	});
@@ -52,7 +48,9 @@ test.describe('Bee Stack Website Tests', () => {
 		);
 	});
 
-	test('Should verify the home page contents', async ({ page }) => {
+	test('Should verify the home page link and contents', async ({ page }) => {
+		await page.getByRole('link', { name: 'About' }).click();
+		await page.getByRole('link', { name: 'Bee Stack' }).click();
 		await expect(page.getByRole('main')).toContainText(
 			'Welcome to the Bee Stack blog. Where I share my thoughts and learnings as I journey through software development.'
 		);
