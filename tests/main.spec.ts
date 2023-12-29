@@ -16,11 +16,11 @@ test('Main test', async ({ page }) => {
 		'Meet me, Roopesh Patel, aka Roopsbee, aka Roops, a curious individual on a quest to explore the world of software development and beyond.'
 	);
 	const page1Promise = page.waitForEvent('popup');
-	await page.getByRole('link').nth(3).click();
+	await page.getByLabel("Roopesh's Github Home Page").click();
 	const page1 = await page1Promise;
 	await expect(page1.getByRole('main')).toContainText('roopsBee');
 	const page2Promise = page.waitForEvent('popup');
-	await page.getByRole('link').nth(4).click();
+	await page.getByLabel("Roopesh's Linkedin home page").click();
 	const page2 = await page2Promise;
 	await expect(page2.locator('#public_profile_contextual-sign-in-modal-header')).toContainText(
 		'Sign in to view Roopesh’s full profile'
