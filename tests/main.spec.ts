@@ -32,20 +32,14 @@ test.describe('Bee Stack Website Tests', () => {
 		);
 	});
 
-	test("Should open Roopesh's GitHub page in a new tab", async ({ page }) => {
-		const page1Promise = page.waitForEvent('popup');
-		await page.getByLabel("Roopesh's Github Home Page").click();
-		const page1 = await page1Promise;
-		await expect(page1.getByRole('main')).toContainText('roopsBee');
+	test('GitHub link should link to github profile', async ({ page }) => {
+		const githubIcon = page.getByLabel("Roopesh's Github Home Page");
+		await expect(githubIcon).toHaveAttribute('href', 'https://github.com/roopsbee');
 	});
 
-	test("Should open Roopesh's LinkedIn page and display sign-in prompt", async ({ page }) => {
-		const page2Promise = page.waitForEvent('popup');
-		await page.getByLabel("Roopesh's Linkedin home page").click();
-		const page2 = await page2Promise;
-		await expect(page2.locator('#public_profile_contextual-sign-in-modal-header')).toContainText(
-			'Sign in to view Roopesh’s full profile'
-		);
+	test('Linkedin link should link to linked in profile', async ({ page }) => {
+		const linkedInIcon = page.getByLabel("Roopesh's Linkedin home page");
+		await expect(linkedInIcon).toHaveAttribute('href', 'https://linkedin.com/in/roopesh-patel-51a448145/');
 	});
 
 	test('Should verify the home page link and contents', async ({ page }) => {

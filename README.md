@@ -1,3 +1,5 @@
 # My personal blog
 
--   built with astro
+-   Built with astro
+-   Testing with playwright
+-   Styling with tailwind
